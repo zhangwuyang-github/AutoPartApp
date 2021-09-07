@@ -1,0 +1,36 @@
+{
+    "javascript.implicitProjectConfig.experimentalDecorators": true,
+    "npm-intellisense.importLinebreak": "",
+    "importBeautify.maxLineLength": 100,
+    "importBeautify.trailingComma": "none",
+    "typescript.preferences.quoteStyle": "single",
+    "autoimport.useSemiColon": false,
+    "importBeautify.beautifyOnSave": true,
+    "eslint.enable": true,
+    "eslint.alwaysShowStatus": true,
+    "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+    "files.trimTrailingWhitespace": true,
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[markdown]": {
+      "files.trimTrailingWhitespace": false
+    },
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "editor.renameOnType": true
+  }
